@@ -152,6 +152,7 @@ class Game(object):
                 (self.field_rect.left + x * self.GRID_SIZE - 1, self.field_rect.bottom - 1))
     
     def draw(self):
+         print "loading textures..."        
         #draw background image
         self.draw_background()
         
